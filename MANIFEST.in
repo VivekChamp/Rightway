@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rigth_custom *.css
+recursive-include rigth_custom *.csv
+recursive-include rigth_custom *.html
+recursive-include rigth_custom *.ico
+recursive-include rigth_custom *.js
+recursive-include rigth_custom *.json
+recursive-include rigth_custom *.md
+recursive-include rigth_custom *.png
+recursive-include rigth_custom *.py
+recursive-include rigth_custom *.svg
+recursive-include rigth_custom *.txt
+recursive-exclude rigth_custom *.pyc
